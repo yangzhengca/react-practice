@@ -3,14 +3,15 @@ import logo from './logo.svg';
 import './App.css';
 import Fetch from './components/Fetch/Fetch.js'
 import Form from './components/Form/Form.js';
+import SetData from './components/SetData/SetData.js'
 
 
 
 function App() {
-  const [count, setCount] = useState(0);
+
   return (
     <>
-      <Fetch />
+      <SetData />
 
     </>
   );
